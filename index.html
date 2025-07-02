@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .inter {
+        font-family: 'Inter', sans-serif;
+      }
+      .poppins {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-[#1F2937] min-h-screen">
+    <div class="mt-10 mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-40 max-w-screen-lg">
+      <h1 class="inter text-white text-3xl sm:text-4xl font-bold">
+        Generate a
+      </h1>
+      <h1 class="poppins text-[#10B981] font-bold text-4xl sm:text-5xl">
+        Secure password
+      </h1>
+      <h2 class="text-white mt-2 text-lg sm:text-xl opacity-80">
+        Never use an insecure password again.
+      </h2>
+
+      <button
+        class="inter bg-[#10B981] text-white mt-5 px-4 py-2 text-lg sm:text-xl rounded-md shadow-md hover:bg-[#0f8661] transition duration-300"
+        id="button"
+        onclick="something()"
+      >
+        Generate password
+      </button>
+    </div>
+
+    <main class="flex justify-center mt-8 px-4">
+      <div
+        class="flex flex-wrap w-full max-w-screen-lg border-t border-[#2F3E53] gap-4 pt-4"
+        id="daddy"
+      ></div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
